@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <center>
+      <h2>JS String Methods</h2>
+      <p>Replace "Microsoft"with "W3Schools" in the paragraph below</p>
+      <button onclick="myfunction()">Try it</button>
+      <p id ="demo">Please visit Microsoft!</p>
+      <script>
+        function myfunction() {
+          var str = document.getElementById("demo").innerHTML;
+          var txt = str.replace("Microsoft","W3Schools");
+          document.getElementById("demo").innerHTML = txt;
+        }
+      </script>
+    </center>
+  </body>
+</html>
